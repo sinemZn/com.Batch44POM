@@ -7,10 +7,7 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 import java.util.function.Function;
 
 public class ReusableMethods {
@@ -143,5 +140,9 @@ public class ReusableMethods {
         });
 
         return element;
+    }
+
+    public static Map<String, String> mapOlustur(String path, String sayfaAdi) {
+        return null;
     }
 }
